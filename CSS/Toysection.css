@@ -103,6 +103,10 @@
     margin-top: 10px;
     left: 35%;
 }
+.info a:hover{
+    
+}
+
 .movie .poster,
 .movie .info,
 .movie .info header {
