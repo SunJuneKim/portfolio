@@ -39,7 +39,7 @@
     background-color: #fff;
     backface-visibility: hidden;
 }
-
+fff
 .movie .poster {
     transform: translateZ(130px);
     background-size: cover;
@@ -104,7 +104,7 @@
     left: 35%;
 }
 .info a:hover{
-    
+
 }
 
 .movie .poster,
