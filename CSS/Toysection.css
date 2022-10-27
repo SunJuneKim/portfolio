@@ -8,6 +8,7 @@
 @media screen and (max-width: 975px){
     .wrapper{
         top: 100px;
+        border: 1px solid black;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -117,10 +118,6 @@
     margin-right: 25px;
 }
 
-
-.info a:hover{
-    
-}
 
 .movie .poster,
 .movie .info,
