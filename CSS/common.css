@@ -1,24 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script:wght@500;600&display=swap');
 
-*
-{
-    margin: 0;
-    padding: 0;
+::-webkit-scrollbar {
+    width: 5px;
+    height: 15px;
 }
-body{
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.507);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow-x: hidden;
 }
+
+
 
 /* 랜딩페이지 */
-.intro_scene{
+/* .intro_scene{
+    position: relative;
+    top: 0px;
     height: 100vh;
     width: 100%;
-}
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    display: 
+    none; } */
 
-.project_form{
-    display: flex ;
+.project_form {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -26,7 +49,8 @@ body{
     gap: 2rem;
     border: 1px solid limegreen;
 }
-.project{
+
+.project {
     position: relative;
     /* min-width: 500px; */
     /* margin: 5% 0%; */
@@ -36,40 +60,46 @@ body{
     border-radius: 20px;
     /* box-shadow: ; */
 }
-.project:last-child{
+
+.project:last-child {
     margin-bottom: 20px;
 }
-.project_form .project_info
-{
+
+.project_form .project_info {
     margin: 20px;
     display: flex;
     flex-direction: row;
 }
-.project_form .project_info .project_info_left
-{
+
+.project_form .project_info .project_info_left {
     display: flex;
     flex-direction: column;
-    border: 1px solid orange;
+    border: 1px solid rgb(226, 162, 43);
 }
-.project_form .project_info .project_info_right{
+
+.project_form .project_info .project_info_right {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     width: 100%;
     padding: 20px;
 }
-.project_form .project_info .project_info_right .content{
+
+.project_form .project_info .project_info_right .content {
     border-bottom: 1px solid gray;
     padding-bottom: 10px;
-    
+
 }
-.project_form .project_info .project_info_right .content2{
-    padding-top: 10px; 
+
+.project_form .project_info .project_info_right .content2 {
+    padding-top: 10px;
 }
-.project img{
+
+.project img {
     width: 400px;
-    
+
 }
-.footer{
+
+.footer {
     width: 100%;
     height: 200px;
     background: rgba(10, 10, 10, 0.2);
@@ -82,13 +112,13 @@ body{
     gap: 1rem;
 }
 
-.footer .github_icon{
+.footer .github_icon {
     z-index: 1;
     width: 50px;
-    
-    
+
+
 }
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script:wght@500;600&display=swap');
+
 
 * {
     margin: 0;
@@ -101,7 +131,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffdead;
+    background-color: #ffb342;
 }
 
 .logo {
@@ -153,19 +183,12 @@ ul>a {
         gap: 2rem;
     }
 
-     .icon_link {
+    .icon_link {
         display: none;
-    } 
+    }
 
 }
 
-
-.typing_effect {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    justify-content: center;
-    align-items: center;
-}
 
 /* Home 화면 */
 .wrapper {
@@ -182,7 +205,6 @@ ul>a {
     overflow: hidden;
     /* font-family: 'Dancing Script', cursive; */
     font-size: 2.5em;
-
 }
 
 .project_form {
@@ -203,9 +225,6 @@ ul>a {
     background-color: #ffdead;
 }
 
-.project:hover {
-    -webkit-transform: translateY(0.1rem);
-}
 
 .project:last-child {
     margin-bottom: 20px;
@@ -259,7 +278,7 @@ ul>a {
 .footer {
     width: 100%;
     height: 200px;
-    background: rgba(10, 10, 10, 0.2);
+    background: rgba(0, 0, 0, 0);
     position: relative;
     bottom: 0;
     justify-content: center;
@@ -279,6 +298,21 @@ ul>a {
 
 
 }
+
+.skill-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 30vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.skill-section div{
+    gap: 30px;
+}
+
 
 
 @keyframes typing {

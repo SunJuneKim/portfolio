@@ -1,5 +1,5 @@
 .toyproject{
-    background: rgb(226, 226, 54);
+    background: rgb(255, 255, 255);
 }
 .wrapper {
     margin: 0 auto 100px auto;
@@ -8,6 +8,7 @@
 @media screen and (max-width: 975px){
     .wrapper{
         top: 100px;
+        border: 1px solid black;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -111,16 +112,12 @@
     position: relative;
     margin-top: 10px;
     left: 30%;
-    border: 5px solid black;
+    border: 3px solid black;
 }
 .info a img:first-child{
     margin-right: 25px;
 }
 
-
-.info a:hover{
-    
-}
 
 .movie .poster,
 .movie .info,
