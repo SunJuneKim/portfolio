@@ -128,25 +128,9 @@ $('.ov_small_img_hv1').hover(function () {
 
 $(document).mousemove(function (e) {
 
-    gsap.to(".cursor", { duration: 0.2, left: e.pageX - 1, top: e.pageY - 1 });
+    gsap.to(".cursor", { duration: 0.2, left: e.pageX , top: e.pageY });
 
 });
-
-
-
-//커서 오버 효과1
-
-$(".intro .main_cont ").hover(function () {
-
-    $(".cursor").addClass("active");
-
-}, function () {
-
-    $(".cursor").removeClass("active");
-
-});
-
-
 
 //커서 오버 효과2
 
@@ -173,7 +157,6 @@ setTimeout(function () {
 });
 
 
-
 function pageClick() {
 
     document.querySelectorAll(".page_click").forEach((elem) => {
@@ -192,9 +175,10 @@ function pageClick() {
 
                 window.location.href =
 
-                    "http://leeboa.com/" + dataName + ".html";
+                    // "http://leeboa.com/" + dataName + ".html";
+                  "http://127.0.0.1:5500/"+  dataName+".html";
 
-            }, 2000);
+            },500);
 
         });
 

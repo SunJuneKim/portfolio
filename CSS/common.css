@@ -25,29 +25,22 @@ body {
     flex-direction: column;
     justify-content: center;
     overflow-x: hidden;
+    background-color: black;
 }
-
-
-
-/* 랜딩페이지 */
-/* .intro_scene{
-    position: relative;
-    top: 0px;
-    height: 100vh;
+body .header{
+    position: fixed;
     width: 100%;
-    background-image: url(../images/background.jpg);
-    background-size: cover;
-    display: 
-    none; } */
-
+    top: 0px;
+    z-index: 1000;
+}
 .project_form {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     gap: 2rem;
-    border: 1px solid limegreen;
 }
 
 .project {
@@ -56,7 +49,6 @@ body {
     /* margin: 5% 0%; */
     width: 90%;
     height: 800px;
-    border: 1px solid blue;
     border-radius: 20px;
     /* box-shadow: ; */
 }
@@ -74,7 +66,6 @@ body {
 .project_form .project_info .project_info_left {
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(226, 162, 43);
 }
 
 .project_form .project_info .project_info_right {
@@ -127,6 +118,8 @@ body {
 
 /* nav-bar */
 .header {
+    top: 0;
+    position: relative;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -222,7 +215,7 @@ ul>a {
     width: 90%;
     height: 800px;
     border-radius: 20px;
-    background-color: #ffdead;
+    background-color: #ffffff;
 }
 
 
