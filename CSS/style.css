@@ -867,12 +867,13 @@ nav.overlay:before {
 
 #intro_sec1 .intro-img figcaption {
 	position: absolute;
-	left: 0;
-	bottom: 12%;
+	left: -10px;
+	bottom: 20%;
+    letter-spacing: 8px;
 	-webkit-transform: rotate(-90deg) translate(0, 100%);
 	transform: rotate(-90deg) translate(0, 100%);
 	transform-origin: 0 100%;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	color: #e7e7e7;
 }
 
