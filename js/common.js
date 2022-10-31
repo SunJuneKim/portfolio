@@ -144,6 +144,14 @@ $(".next_area ").hover(function () {
 
 });
 
+//gogo cursor
+$(".main_cont").hover(function(){
+    $(".cursor").addClass("active1");
+}, function(){
+    $(".cursor").removeClass("active1");
+
+});
+
 
 
 
