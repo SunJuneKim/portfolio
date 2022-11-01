@@ -27,11 +27,12 @@ body {
     overflow-x: hidden;
     background-color: black;
 }
-body .header{
-    position: fixed;
+
+.intro_scene{
+    position: relative;
     width: 100%;
-    top: 0px;
-    z-index: 1000;
+    height: 100vh;
+    
 }
 .project_form {
     position: relative;
