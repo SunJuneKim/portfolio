@@ -91,3 +91,21 @@ body .header{
     font-size: 30px;
     border-bottom: 1px solid black;
 }
+
+.section{
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", "Noto Sans KR", sans-serif;
+    color: #626262;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+    height: max-content;
+}

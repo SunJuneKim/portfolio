@@ -23,21 +23,21 @@
     font-family:'Mosk-Normal-400';
     font-style: normal;
     font-weight: normal;
-    src: local('Mosk-Normal-400'), url('http://leeboa.com/portfolio2/font/Mosk-Normal-400.woff') format('woff');
+    src: local('Mosk-Normal-400'),  format('woff');
     }
     
     @font-face {
     font-family:'Mosk-Light-300';
     font-style: normal;
     font-weight: normal;
-    src: local('Mosk-Light-300'), url('http://leeboa.com/portfolio2/font/Mosk-Light-300.woff') format('woff');
+    src: local('Mosk-Light-300'), format('woff');
     }
     
     @font-face {
     font-family: 'Degarism-Studio-Alliance-No.1-Light';
     font-style: normal;
     font-weight: normal;
-    src: local('Degarism-Studio-Alliance-No.1-Light'), url('http://leeboa.com/portfolio2/font/Degarism-Studio-Alliance-No.1-Light.woff') format('woff');
+    src: local('Degarism-Studio-Alliance-No.1-Light'), format('woff');
     }
     @font-face {
     font-family: 'Chosunilbo_myungjo';
