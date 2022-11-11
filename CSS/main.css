@@ -349,6 +349,7 @@ canvas {
   display: flex;
   margin-bottom: 8%;
   width: 100%;
+  justify-content: space-evenly;
 }
 
 .project_container3 {
@@ -356,12 +357,12 @@ canvas {
 }
 
 .project_img {
-  margin: 0 2%;
-  width: 50%;
+  width: 35%;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   transition: all 0.3s ease-in-out;
+  border: solid;
 }
 
 .project_img1 {
@@ -379,8 +380,8 @@ canvas {
   margin: 2%;
   width: 30%;
   border: solid;
-  justify-content: center;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .project_intro div:first-child{
