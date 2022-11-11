@@ -108,8 +108,13 @@
   
     .project_img {
       width: 100%;
-      height: 65vw;
+      height: 150px;
       margin: 10px 0;
+      position: relative;
+    }
+    .project_img img{
+      position: absolute;
+      width: 100%;
     }
     .project_intro2 {
       order: 2;
@@ -120,18 +125,7 @@
     .project_intro_title {
       font-size: 1.5em;
     }
-    .project_img1 {
-      background-image: url("./src/portfolio_img/portfolio1_mobile.png");
-    }
-    .project_img2 {
-      background-image: url("./src/portfolio_img/portfolio2_mobile.png");
-      order: 2;
-    }
-    .project_img3 {
-      background-image: url("./src/portfolio_img/portfolio2.gif");
-    }
-    
-  
+
     #readmore_checkbox:checked + .skills_container {
       max-height: 1250px;
     }

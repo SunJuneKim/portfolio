@@ -357,10 +357,7 @@ canvas {
 }
 
 .project_img {
-  width: 35%;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  /* width: 35%; */
   transition: all 0.3s ease-in-out;
   border: solid;
 }
