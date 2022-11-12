@@ -91,7 +91,6 @@ canvas {
   position: fixed;
   width: 100%;
   height: 20%;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
 }
 
 .header-layer {
@@ -306,6 +305,17 @@ canvas {
   
   font-size: 1.6rem;
 }
+.myself-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.myself-wrap .myself-right,.myself-wrap .myself-left{
+  width: 40%;
+  padding:0 5%;
+  border: solid;
+}
+
 
 .skill_content{
   font-size: 1.2rem;
