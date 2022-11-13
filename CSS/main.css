@@ -225,6 +225,9 @@ canvas {
   height: max-content;
   text-align: center;
 }
+.article_title_wrap.project-title{
+  padding-top: 250px;
+}
 
 .article_title_wrap .article_title {
   position: relative;
@@ -316,6 +319,10 @@ canvas {
   border: solid;
 }
 
+.skill_wrap{
+  position: relative;
+}
+
 
 .skill_content{
   font-size: 1.2rem;
@@ -369,7 +376,6 @@ canvas {
 .project_img {
   /* width: 35%; */
   transition: all 0.3s ease-in-out;
-  border: solid;
 }
 
 .project_img1 {
@@ -386,7 +392,6 @@ canvas {
 .project_intro {
   margin: 2%;
   width: 30%;
-  border: solid;
   display: flex;
   justify-content: center;
   align-items: center;
