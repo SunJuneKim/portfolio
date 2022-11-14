@@ -83,7 +83,6 @@ window.onload = function() {
       nav_controll[0].style.opacity = 1-(scrolltop).toFixed(1);
       tree[0].style.opacity = (scrolltop * 0.004).toFixed(1);
       apple[0].style.opacity=(scrolltop * 0.004).toFixed(1);
-
     }
 
     // 스크롤에 따른 Nav bar화면 고정
