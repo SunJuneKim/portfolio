@@ -392,7 +392,6 @@ canvas {
 .project_intro {
   margin: 2%;
   width: 30%;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -410,8 +409,10 @@ canvas {
   width: 100%;
   font-size: 2em;
   font-weight: 500;
-  text-align: left;
+  text-align: right;
+  justify-content: flex-start;
   letter-spacing: 0.06em;
+  /* border: solid; */
 }
 
 .project_intro_title span {
@@ -435,6 +436,7 @@ canvas {
 .project_intro_text span {
   margin-right: 10px;
   font-weight: 500;
+  font-style: oblique;
 }
 
 .project_intro_button_box {
