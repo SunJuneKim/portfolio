@@ -316,7 +316,7 @@ canvas {
   justify-content: center;
 }
 .myself-wrap .myself-right,.myself-wrap .myself-left{
-  width: 40%;
+  width: 35%;
   padding:0 5%;
   border: solid;
   line-height: 2.2rem;
@@ -461,20 +461,21 @@ canvas {
 .project_img {
   /* width: 35%; */
   transition: all 0.3s ease-in-out;
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  width: 500px;
 }
 
 .project_img1 {
   background-image: url("../images/JUNEMOVIE.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 500px;
 }
 .project_img2 {
-  background-image: url("./1.jpg");
+  background-image: url("../images/스타벅스1.png");
   order: 2;
 }
 .project_img3 {
-  background-image: url("./1.jpg");
+  background-image: url("../images/스타벅스2.png");
 }
 
 .project_intro {

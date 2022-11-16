@@ -136,12 +136,21 @@
       margin-right: 7%;
       font-size: 0.9em;
     }
+
     .project_container {
-      align-items: center;
+
       flex-flow: column;
     }
     .project_intro {
+      /* align-items: center; */
+      /* justify-content: center; */
       width: 70%;
+    }
+    .project_intro_text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
     .project_intro_text p {
       width: 50%;
@@ -187,11 +196,11 @@
       max-height: 1000px;
     }
   }
-  
+
   @media (min-width: 1000px) {
-    .project_img {
+    /* .project_img {
       height: unset;
-    }
+    } */
   
     .skills_container {
       transition: all 0.5s ease-out;
@@ -209,4 +218,9 @@
       width: 1250px;
     }
   }
-  
+  @media (min-width: 1411px){
+    .project_intro_button{
+      margin-top: 20px;
+      width: 250px;
+    }
+  }
