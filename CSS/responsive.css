@@ -140,15 +140,7 @@
     .header .image-div{
       left:0;
     }
-    .wrap{
-      left:0;
-      transform: translateX(0);
-    }
-    .wrap .border .content{
-      left: 50%;
-      transform: translateX(-25%);
-      width: 500px;
-    }
+
     .project_container {
 
       flex-flow: column;
@@ -199,9 +191,6 @@
     }
   }
 
-  @media (min-width: 500px) {
-  }
-  
   @media (min-width: 740px) {
     .project_img {
       height: 330px;
