@@ -15,9 +15,6 @@
   .skills_container {
     opacity: 0;
   }
-  .skills_readmore {
-    opacity: 0;
-  }
   .project_img1,
   .project_img3 {
     opacity: 0;
@@ -55,9 +52,7 @@
     .skills_container {
       opacity: 1;
     }
-    .skills_readmore {
-      opacity: 1;
-    }
+ 
     .project_img1,
     .project_img3 {
       opacity: 1;
