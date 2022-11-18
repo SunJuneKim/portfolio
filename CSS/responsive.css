@@ -51,6 +51,11 @@
       color: white;
       font-size: 2em;
     }
+    .header_container .header_title p {
+      font-size: 2.5rem;
+      letter-spacing: 15px;
+    }
+
     .myinfo_container {
       flex-flow: column;
       width: 100%;
@@ -132,6 +137,9 @@
   }
   
   @media (min-width: 450px) and (max-width: 999px) {
+    .header-title .typing-effect-m{
+      font-size: 3.4rem;
+    }
     .nav_menu {
       margin-right: 7%;
       font-size: 0.9em;
@@ -140,14 +148,31 @@
     .header .image-div{
       left:0;
     }
+    .project_intro_title{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .project_intro_text p{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+    }
+    .project_intro_text span{
+      padding: 0;
+      margin: 0;
+    }
 
     .project_container {
-
+      justify-content: center;
+      align-items: center;
       flex-flow: column;
     }
     .project_intro {
-      /* align-items: center; */
-      /* justify-content: center; */
       width: 70%;
     }
     .project_intro_text{
@@ -158,13 +183,11 @@
     }
     .project_intro_text p {
       width: 50%;
-      float: left;
     }
     .project_intro_text p:nth-child(1) {
       width: 100%;
     }
     .project_intro_text p:nth-child(3) {
-      padding-left: 1.5%;
       width: 50%;
     }
     .project_img {
@@ -217,9 +240,8 @@
       width: 300px;
       left: 360px;
     }
-
   }
-  
+
   @media (min-width: 1250px) {
     .skills_container,
     .project_container,
@@ -233,4 +255,23 @@
       margin-top: 20px;
       width: 250px;
     }
+  }
+  @media screen and (max-width:768px){
+    .border::before{
+      display: none;
+    }
+    .border::after{
+      display: none;
+    }
+    .wrap .border .content{
+      width: 100%;
+      border-radius: 0;
+    }
+    .wrap .border .content .icon-I{
+      border-radius: 0px 0px 0px 0px;
+    }
+    .wrap .border .content p {
+      font-size: 30px;
+    
+
   }
