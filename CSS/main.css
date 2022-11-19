@@ -155,7 +155,6 @@ canvas {
 }
 
 .header .apple {
-  border: solid blue;
   position: absolute;
   top: 60%;
   left: 55%;
@@ -415,8 +414,6 @@ canvas {
 
 .myself-wrap .myself-right,
 .myself-wrap .myself-left {
-  /* width: 35%; */
-  /* padding: 0 5%; */
   line-height: 2.2rem;
 }
 
@@ -473,7 +470,7 @@ canvas {
   position: relative;
   -js-display: flex;
   display: flex;
-  margin-bottom: 8%;
+  flex-direction: row;
   width: 100%;
   justify-content: space-evenly;
 }
@@ -489,6 +486,7 @@ canvas {
   background-size: contain;
   background-repeat: no-repeat;
   width: 500px;
+  height: 100%;
 }
 
 .project_img1 {
@@ -562,7 +560,6 @@ canvas {
   display: flex;
   height: 35px;
   width: 40%;
-  margin-top: 3%;
   justify-content: center;
   align-items: center;
 }

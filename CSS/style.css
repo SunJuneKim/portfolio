@@ -853,11 +853,11 @@ nav.overlay:before {
 	margin-top: 6.5%;
 }
 #intro_sec1 .come-in{
-	position: relative;
+	position: absolute;
 	width: 300px;
 	padding-left: 20px;
 	height: 250px;
-	right: -50%;
+	right: 10%;
 	top: 40%;
 }
 #intro_sec1 .come-in:hover figcaption{
@@ -1979,12 +1979,12 @@ svg#text-container text {
 		font-size: 5rem;
 	}
 
-	#intro_sec1 .intro-img figcaption {
+	/* #intro_sec1 .intro-img figcaption {
 		display: none;
-	}
+	} */
 
 	.menu li {
-		font-size: 10vw;
+		font-size: 7vw;
 	}
 
 	.left-nav {
