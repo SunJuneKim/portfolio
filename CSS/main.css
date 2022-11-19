@@ -473,10 +473,11 @@ canvas {
   flex-direction: row;
   width: 100%;
   justify-content: space-evenly;
+  margin-bottom: 180px;
 }
 
 .project_container3 {
-  padding-bottom: 20%;
+  /* padding-bottom: 20%; */
 }
 
 .project_img {
