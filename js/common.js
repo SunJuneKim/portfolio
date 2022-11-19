@@ -136,7 +136,7 @@ function pageClick() {
 
       setTimeout(() => {
         window.location.href =
-          "http://127.0.0.1:5501/" + dataName + ".html";
+          "https://sunjunekim.github.io/portfolio/" + dataName + ".html";
       }, 2500);
     });
   });
