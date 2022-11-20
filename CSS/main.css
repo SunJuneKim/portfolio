@@ -345,9 +345,9 @@ canvas {
 .wrap .border::before {
   content: '';
   position: absolute;
-  top: 0;
+  top: -10px;
   width: 600px;
-  height: 400px;
+  height: 420px;
   border-left: 20px solid #e1e1e1;
   border-bottom: 20px solid #e1e1e1;
   border-radius: 30px;
@@ -355,10 +355,10 @@ canvas {
 
 .wrap .border::after {
   content: '';
-  top: 0;
+  top: -10px;
   position: absolute;
   width: 600px;
-  height: 400px;
+  height: 420px;
   border-right: 20px solid #e1e1e1;
   border-top: 20px solid #e1e1e1;
   border-radius: 30px;
@@ -474,15 +474,7 @@ canvas {
   flex-direction: row;
   width: 100%;
   justify-content: space-evenly;
-<<<<<<< HEAD
   margin-bottom: 150px;
-=======
-  margin-bottom: 180px;
->>>>>>> bf153cac8ad06c0fe9e6869f858e5c2398b08e5a
-}
-
-.project_container3 {
-  /* padding-bottom: 20%; */
 }
 
 .project_img {
@@ -611,7 +603,7 @@ canvas {
   position: relative;
   width: 100%;
   height: 300px;
-  background: #991A3B;
+  background: #161c24;
   -webkit-font-smoothing: antialiased;
   display: flex;
   justify-content: center;
