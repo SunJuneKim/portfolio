@@ -412,9 +412,10 @@ canvas {
   justify-content: center;
 }
 
-.myself-wrap .myself-right,
-.myself-wrap .myself-left {
-  line-height: 2.2rem;
+.myself-wrap .myself-right{
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.5rem;
 }
 
 .skill_wrap {
@@ -473,6 +474,7 @@ canvas {
   flex-direction: row;
   width: 100%;
   justify-content: space-evenly;
+  margin-bottom: 150px;
 }
 
 .project_container3 {
@@ -602,7 +604,6 @@ canvas {
 /* CONTACT */
 
 .bouncee {
-  margin-top: 300px;
   position: relative;
   width: 100%;
   height: 300px;
