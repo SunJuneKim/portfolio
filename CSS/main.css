@@ -474,11 +474,15 @@ canvas {
   flex-direction: row;
   width: 100%;
   justify-content: space-evenly;
+<<<<<<< HEAD
   margin-bottom: 150px;
+=======
+  margin-bottom: 180px;
+>>>>>>> bf153cac8ad06c0fe9e6869f858e5c2398b08e5a
 }
 
 .project_container3 {
-  padding-bottom: 20%;
+  /* padding-bottom: 20%; */
 }
 
 .project_img {
