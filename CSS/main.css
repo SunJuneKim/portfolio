@@ -407,18 +407,18 @@ canvas {
   text-align: center;
   line-height: 3rem;
   font-size: 1.5rem;
-<<<<<<< HEAD
+
   background-color: #1a6099;
   border-radius: 50px;
   color: white;
   padding: 30px 50px 30px 50px;
   line-height: 50px;
-=======
+
   padding: 30px 50px 30px 50px;
   max-width: 1040px;
-  background-color: #4000FF;
+  background-color: #1a6099;
   border-radius: 30px;
->>>>>>> d7668d7ecc289d2a021f39f7f8363e801bb83961
+
 }
 
 .skill_wrap {
