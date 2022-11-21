@@ -220,3 +220,141 @@
     }
   }
   
+
+@keyframes coverleft {
+	0% {
+		transform: scaleX(1) skewX(30deg);
+		transform-origin: left;
+	}
+
+	100% {
+		transform: scaleX(0) skewX(30deg);
+		transform-origin: left;
+	}
+}
+
+@keyframes coverright {
+	0% {
+		transform: scaleX(0) skewX(20deg);
+		transform-origin: left;
+	}
+
+	100% {
+		transform: scaleX(1) skewX(20deg);
+		transform-origin: left;
+	}
+}
+
+@-webkit-keyframes noiseAnimation {
+	0% {
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0)
+	}
+
+	10% {
+		-webkit-transform: translate(-5%, -5%);
+		transform: translate(-5%, -5%)
+	}
+
+	20% {
+		-webkit-transform: translate(-10%, 5%);
+		transform: translate(-10%, 5%)
+	}
+
+	30% {
+		-webkit-transform: translate(5%, -10%);
+		transform: translate(5%, -10%)
+	}
+
+	40% {
+		-webkit-transform: translate(-5%, 15%);
+		transform: translate(-5%, 15%)
+	}
+
+	50% {
+		-webkit-transform: translate(-10%, 5%);
+		transform: translate(-10%, 5%)
+	}
+
+	60% {
+		-webkit-transform: translate(15%, 0);
+		transform: translate(15%, 0)
+	}
+
+	70% {
+		-webkit-transform: translate(0, 10%);
+		transform: translate(0, 10%)
+	}
+
+	80% {
+		-webkit-transform: translate(-15%, 0);
+		transform: translate(-15%, 0)
+	}
+
+	90% {
+		-webkit-transform: translate(10%, 5%);
+		transform: translate(10%, 5%)
+	}
+
+	100% {
+		-webkit-transform: translate(5%, 0);
+		transform: translate(5%, 0)
+	}
+}
+
+@keyframes noiseAnimation {
+	0% {
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0)
+	}
+
+	10% {
+		-webkit-transform: translate(-5%, -5%);
+		transform: translate(-5%, -5%)
+	}
+
+	20% {
+		-webkit-transform: translate(-10%, 5%);
+		transform: translate(-10%, 5%)
+	}
+
+	30% {
+		-webkit-transform: translate(5%, -10%);
+		transform: translate(5%, -10%)
+	}
+
+	40% {
+		-webkit-transform: translate(-5%, 15%);
+		transform: translate(-5%, 15%)
+	}
+
+	50% {
+		-webkit-transform: translate(-10%, 5%);
+		transform: translate(-10%, 5%)
+	}
+
+	60% {
+		-webkit-transform: translate(15%, 0);
+		transform: translate(15%, 0)
+	}
+
+	70% {
+		-webkit-transform: translate(0, 10%);
+		transform: translate(0, 10%)
+	}
+
+	80% {
+		-webkit-transform: translate(-15%, 0);
+		transform: translate(-15%, 0)
+	}
+
+	90% {
+		-webkit-transform: translate(10%, 5%);
+		transform: translate(10%, 5%)
+	}
+
+	100% {
+		-webkit-transform: translate(5%, 0);
+		transform: translate(5%, 0)
+	}
+}
