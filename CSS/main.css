@@ -345,9 +345,9 @@ canvas {
 .wrap .border::before {
   content: '';
   position: absolute;
-  top: -10px;
+  top: 0;
   width: 600px;
-  height: 420px;
+  height: 450px;
   border-left: 20px solid #e1e1e1;
   border-bottom: 20px solid #e1e1e1;
   border-radius: 30px;
@@ -355,10 +355,10 @@ canvas {
 
 .wrap .border::after {
   content: '';
-  top: -10px;
   position: absolute;
+  top: 0;
   width: 600px;
-  height: 420px;
+  height: 450px;
   border-right: 20px solid #e1e1e1;
   border-top: 20px solid #e1e1e1;
   border-radius: 30px;
@@ -366,16 +366,14 @@ canvas {
 
 .wrap .border .content {
   top: 35px;
-  /* left: 50%; */
-  /* transform: translateX(-25%); */
+  font-family: 'Poppins', sans-serif;
   position: absolute;
   width: 700px;
-  height: 350px;
+  height: 400px;
   background-color: #2a2a2a;
   border-radius: 30px;
   filter: drop-shadow(4px 5px 7px rgb(0 0 0 / 60%));
   transition: .2s;
-  /* z-index: 1; */
 }
 
 .wrap .border .content .icon-I {
@@ -392,7 +390,7 @@ canvas {
   top: 100px;
   background-color: #2a2a2a;
   color: #e1e1e1;
-  font-size: 45px;
+  font-size: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -497,7 +495,7 @@ canvas {
 }
 
 .project_img3 {
-  background-image: url("../images/스타벅스2.png");
+  background-image: url("../images/포트폴리오1.png");
 }
 
 .project_intro {
