@@ -61,7 +61,9 @@
     font-size: 2.5rem;
     letter-spacing: 15px;
   }
-
+  .header .apple{
+    top: 30%;
+  }
   #intro_sec1 .right-btn-wrap {
     position: relative;
     display: flex;
@@ -204,6 +206,7 @@
 
   .header .image-div {
     left: 0;
+    width: 300px;
   }
 
   .project_intro_title {

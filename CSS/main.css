@@ -156,11 +156,9 @@ canvas {
 
 .header .apple {
   position: absolute;
-  top: 60%;
-  left: 55%;
-  transform: translateX(-25%);
-  /* top: 100px; */
   animation: apple 2s infinite linear;
+  top: 55%;
+  left: 50%;
 }
 
 @keyframes apple {
