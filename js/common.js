@@ -98,15 +98,6 @@ $(document).mousemove(function (e) {
 
 //커서 오버 효과2
 
-$(".next_area ").hover(
-  function () {
-    $(".cursor").addClass("active2");
-  },
-  function () {
-    $(".cursor").removeClass("active2");
-  }
-);
-
 //gogo cursor
 $(".main_cont").hover(
   function () {
