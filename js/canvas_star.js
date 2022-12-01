@@ -64,7 +64,8 @@ function render() {
     context.strokeStyle =
       index % 9 === 0
         ? "rgba(255,255,255)"
-        : "rgba(255,255,255," + (0.3 + 0.7 * Math.random()) + ")";
+        : "rgba(255,255,255," + (0.3 + 0.7 * Math.random()) + ")";\
+        
     // 별 반짝임 opacity
     context.lineTo(star.x, star.y);
     context.stroke();
