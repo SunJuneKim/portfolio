@@ -502,6 +502,14 @@ canvas {
 .project_img3 {
   background-image: url("../images/포트폴리오1.png");
 }
+.project_img4{
+  background-image: url("../images/Typing-game.mp4");
+  order:2;
+}
+.project_img4 video{
+  width: 500px;
+  height: 400px;
+}
 
 .project_intro {
   margin: 2%;

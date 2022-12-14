@@ -24,6 +24,8 @@ var project_img2 = document.getElementsByClassName("project_img2");
 var project_intro2 = document.getElementsByClassName("project_intro2");
 var project_img3 = document.getElementsByClassName("project_img3");
 var project_intro3 = document.getElementsByClassName("project_intro3");
+var project_img4 = document.getElementsByClassName("project_img4");
+var project_intro4 = document.getElementsByClassName("project_intro4");
 
 function nav_scroll(e) {
   // Nav_menu 스크롤 이동
@@ -111,7 +113,7 @@ window.onload = function() {
       if (
         anicheck == 1 &&
         scrolltop + client_height / 2 >=
-          section[2].offsetTop + project_container[1].offsetTop
+        section[2].offsetTop + project_container[1].offsetTop
       ) {
         project_img2[0].style.animation = "slide-left 0.7s ease-out both";
         project_intro2[0].style.animation = "slide-right 0.7s ease-out both";
@@ -128,6 +130,17 @@ window.onload = function() {
         project_img3[0].style.opacity = "1";
         project_intro3[0].style.animation = "slide-left 0.7s ease-out both";
         project_intro3[0].style.opacity = "1";
+        anicheck++;
+      }
+      if (
+        anicheck == 3 &&
+        scrolltop + client_height / 2 >=
+          section[2].offsetTop + project_container[3].offsetTop
+      ) {
+        project_img4[0].style.animation = "slide-left 0.7s ease-out both";
+        project_intro4[0].style.animation = "slide-right 0.7s ease-out both";
+        project_img4[0].style.opacity = "1";
+        project_intro4[0].style.opacity = "1";
         anicheck++;
       }
       
